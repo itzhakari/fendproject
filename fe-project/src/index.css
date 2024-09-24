@@ -2,10 +2,13 @@
   display: flex;
   justify-content: center; /* Centers buttons horizontally */
   align-items: center; /* Centers buttons vertically */
-  height: 100px; /* Adjust as needed */
-  background-color: #f0f0f0; /* Optional: Background color */
+  height: 60px; /* Adjust as needed */
+  background-color: white; /* Optional: Background color */
 }
 
 .navbar button {
   margin: 0 10px; /* Adds space between buttons */
+  background-color: white;
+  border: white;
+  font-size: 15px;
 }
