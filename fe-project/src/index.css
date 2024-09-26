@@ -1,14 +1,49 @@
 .navbar {
   display: flex;
-  justify-content: center; /* Centers buttons horizontally */
-  align-items: center; /* Centers buttons vertically */
-  height: 60px; /* Adjust as needed */
-  background-color: white; /* Optional: Background color */
+  align-items: center;
+  height: 60px;
+  background-color: white;
+}
+
+.home, .explore, .products, .womens, .login {
+  border: none;
+  background-color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.headname {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  margin: 0px 75px 0px;
+  border: none;
+  background-color: white;
+}
+
+.home {
+  margin-left: 20%;
+}
+
+.womens {
+  margin-right: 550px;
+}
+
+.search {
+  margin-right: 2px;
+  border: none;
+  background-color: white;
+}
+
+.search-bar {
+  padding-left: 100px;
+  width: 150px;
+}
+
+button:hover {
+  color: rgb(0, 60, 255);
 }
 
 .navbar button {
-  margin: 0 10px; /* Adds space between buttons */
-  background-color: white;
-  border: white;
-  font-size: 15px;
+  transition: all 0.3s ease; 
 }
